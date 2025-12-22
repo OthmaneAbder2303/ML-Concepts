@@ -1,1 +1,21 @@
-cifar*
+# Modèles Keras/TensorFlow (souvent > 100 Mo)
+*.h5
+*.keras
+*.pb
+*.tflite
+variables/
+
+# Jeux de données (Datasets)
+*.zip
+*.tar.gz
+*.csv
+*.npy
+*.npz
+# Si vous avez un dossier spécifique pour les données :
+data/
+
+# Fichiers système et Python
+__pycache__/
+.DS_Store
+.venv/
+venv/
